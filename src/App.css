@@ -1,0 +1,61 @@
+
+*{
+  font-size: 20px;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  background: -webkit-linear-gradient(rgba(0,0,0,1) 0%,rgba(148,187,233,0.8016456582633054) 0%);
+    border-style: solid;
+    border-width: 5px;
+    border-image: linear-gradient(45deg,rgba(148,187,233,0.8016456582633054) 0% , rgba(9,9,121,1) 35%) 1;
+
+}
+h1:hover{
+  background-color: aqua;
+}
+.form{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%, white);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.mybtn{
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(148,187,233,0.8016456582633054) 0%);
+    border-style: solid;
+    border-width: 3px;
+    border-image: linear-gradient(45deg, rgba(0,0,0,1), rgba(148,187,233,0.8016456582633054) ) 1;
+   font-size:30px;
+  margin-left:40%;
+
+}
+.mybtn:hover{
+  background-color: aqua;
+}
+.field{
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(148,187,233,0.8016456582633054) 0%);
+  /* justify-content: center;
+  display: flex;
+  align-items: center; */
+}
+table, th, td {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-image: linear-gradient(45deg, rgba(0,0,0,1), rgba(148,187,233,0.8016456582633054) ) 1;
+}
+button{
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(148,187,233,0.8016456582633054) 0%);
+  border-style: solid;
+  border-width: 3px;
+  border-image: linear-gradient(45deg, rgba(0,0,0,1), rgba(148,187,233,0.8016456582633054) ) 1;
+ font-size:20px;
+}
+.field:hover{
+background-color:aqua ;
+}
